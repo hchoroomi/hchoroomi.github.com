@@ -1,3 +1,3 @@
 # Hello there!
 
-[Hello](hello)
+[Hello](hello.md)
