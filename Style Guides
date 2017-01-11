@@ -1,0 +1,30 @@
+<h1 id="style-guides">Style Guides</h1>
+<ul>
+<li>Finalize and adapt for VC</li>
+</ul>
+<hr>
+<h2 id="ruby">Ruby</h2>
+<ul>
+<li><a href="https://github.com/bbatsov/ruby-style-guide">https://github.com/bbatsov/ruby-style-guide</a></li>
+<li><a href="https://github.com/styleguide/ruby">https://github.com/styleguide/ruby</a></li>
+</ul>
+<h2 id="ruby-on-rails">Ruby on Rails</h2>
+<ul>
+<li><a href="https://github.com/bbatsov/rails-style-guide">https://github.com/bbatsov/rails-style-guide</a></li>
+</ul>
+<h2 id="javascript">Javascript</h2>
+<ul>
+<li><a href="http://airbnb.io/javascript/">http://airbnb.io/javascript/</a> — (<a href="https://github.com/airbnb/javascript">Github</a>)</li>
+<li><a href="https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md">Angular 1 Style Guide</a></li>
+</ul>
+<h2 id="commit-messages">Commit Messages</h2>
+<h3 id="skip-a-build-—-ci-skip-or-skip-ci">Skip a build — <code>[ci skip]</code> or <code>[skip ci]</code></h3>
+<p>CircleCI supports the <code>[ci skip]</code> or <code>[skip ci]</code> standard for ignoring builds.</p>
+<p>CircleCI won’t run the build if they find <code>[ci skip]</code> or <code>[skip ci]</code> anywhere in the commit message of the head commit.</p>
+<h3 id="pivotaltracker-integration-—-seefinishesfixesdelivers-tracker_story_idh">PivotalTracker Integration — <code>[(See|Finishes|Fixes|Delivers) #TRACKER_STORY_ID]h</code></h3>
+<p>PivotalTracker/Github integration allows you to update user stories automatically.</p>
+<p>To update a user story, tag your commit message in following format:</p>
+<p><code>[Finishes #TRACKER_STORY_ID]</code><br>
+<code>[Fixes #TRACKER_STORY_ID]</code><br>
+<code>[Delivers #TRACKER_STORY_ID]</code><br>
+<code>[See #TRACKER_STORY_ID]</code></p>
